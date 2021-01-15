@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rlclick"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.Large.Circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:SpinKit_Color="@color/black" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="4dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:background="@drawable/orange1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+<!--            <TextView-->
+<!--                android:id="@+id/textviewid"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                android:text="1"-->
+<!--                />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/boogaloo"
+                    android:text="Full Name"
+                    android:textSize="20dp"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textviewfname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/boogaloo"
+                    android:text="sahani"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+                <TextView
+                    android:id="@+id/textviewlname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="@font/boogaloo"
+                    android:text="brijesh"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/boogaloo"
+                    android:text="Email Id"
+                    android:textSize="17dp" />
+
+
+                <TextView
+                    android:id="@+id/textviewemailid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="36dp"
+                    android:fontFamily="@font/changa_medium"
+                    android:text="bk@gmail.com"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/boogaloo"-->
+<!--                android:text="Address"-->
+<!--                android:textSize="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textviewaddress"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="40dp"-->
+<!--                android:fontFamily="@font/changa_medium"-->
+<!--                android:text="surat"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+<!--        </LinearLayout>-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/boogaloo"-->
+<!--                android:text="Gender"-->
+<!--                android:textSize="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textviewgender"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="46dp"-->
+<!--                android:fontFamily="@font/changa_medium"-->
+<!--                android:text="male"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+<!--        </LinearLayout>-->
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/boogaloo"-->
+<!--                android:text="Birth Date"-->
+<!--                android:textSize="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textviewbod"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="24dp"-->
+<!--                android:fontFamily="@font/changa_medium"-->
+<!--                android:text="04-03-1998"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+<!--        </LinearLayout>-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/boogaloo"-->
+<!--                android:text="Mobile No"-->
+<!--                android:textSize="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textviewmobileno"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="26dp"-->
+<!--                android:fontFamily="@font/changa_medium"-->
+<!--                android:text="9824113729"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/boogaloo"-->
+<!--                android:text="Password"-->
+<!--                android:textSize="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textviewpassword"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="35dp"-->
+<!--                android:fontFamily="@font/changa_medium"-->
+<!--                android:text="******"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+<!--        </LinearLayout>-->
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

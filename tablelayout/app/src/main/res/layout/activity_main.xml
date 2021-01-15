@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+   <TableLayout
+       android:id="@+id/tableid"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="10dp"
+       android:layout_marginTop="80dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:background="#f1f1f1"
+       android:collapseColumns="1,2"
+       >
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="name"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:gravity="center"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="email"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:gravity="center"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="address"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:gravity="center"
+               />
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:text="brijesh"
+               android:layout_weight="1"
+                android:gravity="center"
+               android:background="#ffff"
+               android:layout_marginHorizontal="1dp"
+               android:layout_marginBottom="1dp"
+               />
+
+           <TextView
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:text="brijesh@gmail.com"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:background="#ffff"
+               android:layout_marginHorizontal="1dp"
+               android:layout_marginBottom="1dp"
+               />
+
+           <TextView
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:text="surat"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:background="#ffff"
+               android:layout_marginHorizontal="1dp"
+               android:layout_marginBottom="1dp"
+               />
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:text="sahani"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:background="#ffff"
+               android:layout_marginHorizontal="1dp"
+               android:layout_marginBottom="1dp"
+               />
+
+           <TextView
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:text="sahani@gmail.com"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:background="#ffff"
+               android:layout_marginHorizontal="1dp"
+               android:layout_marginBottom="1dp"
+               />
+
+           <TextView
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:text="amroli"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:background="#ffff"
+               android:layout_marginHorizontal="1dp"
+               android:layout_marginBottom="1dp"
+               />
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:text="keyur"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:background="#ffff"
+               android:layout_marginHorizontal="1dp"
+               android:layout_marginBottom="1dp"
+               />
+
+           <TextView
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:text="keyur@gmail.com"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:background="#ffff"
+               android:layout_marginHorizontal="1dp"
+               android:layout_marginBottom="1dp"
+               />
+
+           <TextView
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:text="kamrej"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:background="#ffff"
+               android:layout_marginHorizontal="1dp"
+               android:layout_marginBottom="1dp"
+               />
+       </TableRow>
+
+
+
+   </TableLayout>
+
+    <Button
+        android:id="@+id/btnshow"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Show detail"
+        android:onClick="collapseTable"
+
+        />
+
+
+</LinearLayout>

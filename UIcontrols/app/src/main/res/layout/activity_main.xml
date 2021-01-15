@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="select one"
+    android:textSize="27dp"
+
+    />
+    <RadioGroup
+        android:id="@+id/radiogp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="android"
+            android:textSize="18dp"
+            android:onClick="radiobtn"
+            />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radiobtn"
+            android:text="ios"
+            android:textSize="18dp"
+            />
+
+
+    </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/txtid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hobbies"
+            android:textSize="27dp"
+
+            />
+         <CheckBox
+             android:id="@+id/cb1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="reading"
+             android:textSize="18dp"
+             />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="movies"
+        android:textSize="18dp"
+        />
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="travelling"
+        android:textSize="18dp"
+        />
+
+        <EditText
+            android:id="@+id/dateformatid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="select date"
+            android:textSize="26sp"
+
+            />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="please rate "
+        android:textSize="27dp"
+        />
+
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/textrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="please rate "
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/alertbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+
+        />
+
+
+</LinearLayout>
